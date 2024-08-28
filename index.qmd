@@ -1,0 +1,35 @@
+<!-- NOTE: do not re-name this file!  It has to be called index.qmd -->
+
+# Welcome! {.unnumbered}
+
+::: callout-note
+Note to lab members: this document is a work in progress and may change.
+It is your responsibility to be familiar with the content, so you should review these policies regularly.
+:::
+
+Welcome to the GROUP_NAME.
+In this lab, we study ...
+
+::: callout-important
+## Edit This Section
+
+Many lab group handbooks start with a short description of what the lab works on
+:::
+
+## Lab Philosophy
+
+::: callout-important
+## Edit This Section
+
+This is a good place to put any information about overall lab philosophies.
+For example, thoughts about open science, collaboration, publishing, and the role of science in the world
+:::
+
+## Mentoring Philosophy
+
+::: callout-important
+## Edit This Section
+
+This may also be a good place to outline your mentoring philosophy as a PI.
+If this gets too long, it could instead go in a section along with mentee expectations
+:::

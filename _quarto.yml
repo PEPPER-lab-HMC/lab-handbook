@@ -1,0 +1,42 @@
+project:
+  type: book
+
+execute: 
+  freeze: auto #only important if your book includes executed code
+  
+book:
+  title: "GROUP_NAME Handbook"
+  search: true
+  repo-url: https://github.com/cct-datascience/group-handbook-template
+  repo-actions: [edit, issue]
+  page-footer: '© 2024 by PI_NAME <br> This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}}'
+  author: 
+    - name: PI_NAME
+      orcid: 0000-0000-0000-0000
+    #add all contributors as additional authors
+  date: today #updates date published based on last time it was edited
+  chapters:
+    - index.qmd #the landing page file *must* be called 'index.qmd'
+    - contributing.qmd
+    - href: code-of-conduct.qmd
+      text: "Code of Conduct" # A different title for the TOC than on the page itself
+    - group-expectations.qmd
+    - onboarding.qmd
+    - offboarding.qmd
+    - research-best-practices.qmd
+    - authorship.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    number-depth: 1
+    link-external-newwindow: true
+    theme: #bootswatch themes.  For other options check out https://bootswatch.com/
+      light: flatly
+      dark: darkly
+
+editor: 
+  markdown:
+    wrap: sentence #Forces each sentence to be on its own line in source markdown, doesn't affect how it is rendered
